@@ -1,0 +1,16 @@
+#controllers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+}
+
+#main_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+
+}
