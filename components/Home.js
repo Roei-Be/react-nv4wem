@@ -14,12 +14,8 @@ function Home() {
           <h1>tags</h1>
         </div>
         <div id="main_wrapper">
-          <React.Fragment>
-            <BrowserRouter>
-              <Controllers />
-              <Main_Content />
-            </BrowserRouter>
-          </React.Fragment>
+          <Controllers />
+          <Main_Content />
         </div>
       </div>
     </React.Fragment>

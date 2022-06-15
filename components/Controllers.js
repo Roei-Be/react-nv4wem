@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 class Controllers extends Component {
   render() {
-    // const clickables = [{ name: "Home" }, { name: "Signup" }, { name: "Login" }, { name: "User_Page" }];
     return (
       <div id="navbar_wrapper">
         <ul>
@@ -16,3 +15,5 @@ class Controllers extends Component {
     )
   }
 }
+
+export default Controllers;

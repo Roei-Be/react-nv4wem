@@ -8,12 +8,12 @@ import Search_Results from './main_content/Search_Results.js';
 
 function Main_Content() {
   return (
-      <Routes>
+    <React.Fragment>
         <Route path='/' element={<Search_Results />} />
         <Route path='/Search_Results' element={<Search_Results />} />
         <Route path='/Search_Results' element={<Search_Results />} />
         <Route path='/Search_Results' element={<Search_Results />} />
-      </Routes>
+    </React.Fragment>  
   );
 }
 export default Main_Content;

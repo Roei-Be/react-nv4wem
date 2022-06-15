@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
-    // const clickables = [{ name: "Home" }, { name: "Signup" }, { name: "Login" }, { name: "User_Page" }];
     return (
       <div id="navbar_wrapper">
         <ul>
