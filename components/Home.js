@@ -1,4 +1,7 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Controllers from './Controllers';
+import Main_Content from './Main_Content';
 
 function Home() {
   return (
@@ -11,8 +14,12 @@ function Home() {
           <h1>tags</h1>
         </div>
         <div id="main_wrapper">
-          <div id="controllers">s</div>
-          <div id="main_content">s</div>
+          <React.Fragment>
+            <BrowserRouter>
+              <Controllers />
+              <Main_Content />
+            </BrowserRouter>
+          </React.Fragment>
         </div>
       </div>
     </React.Fragment>

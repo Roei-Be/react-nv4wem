@@ -17,32 +17,4 @@ class Header extends Component {
   }
 }
 
-/*
-import NavBar_Links from './NavBar_Links';
-class Header extends Component {
-  state = {
-    activeIndex: null
-  }
-  handleClick = (index) => this.setState({ activeIndex: index });
-  render() {
-    const clickables = [{ name: "Home" }, { name: "Signup" }, { name: "Login" }, { name: "User_Page" }];
-    return (
-      <div id="navbar_wrapper">
-        <ul>
-          { clickables.map((clickable, i) => {
-              return <NavBar_Links 
-                key={ clickable.name }
-                name={ clickable.name }
-                index={ i }
-                isActive={ this.state.activeIndex === i }
-                onClick={ this.handleClick }
-              />
-            })
-          }
-        </ul>
-      </div>
-    )
-  }
-}
-*/
 export default Header;
